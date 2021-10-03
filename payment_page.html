@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Process</title>
+</head>
+<style>
+    body{
+        margin-top:80px;
+        background-color:rgb(236, 239, 241);
+        border:1px solid whitesmoke;
+        height:550px
+    }
+.container{
+        position: fixed;
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+       
+        padding-bottom: 10px;
+    }
+    img{
+        width:110px;
+        height:65px;
+        
+    }
+    #pic{
+        margin:10px 30px 0px 80px;
+       
+    }
+ 
+.box{
+   border:1px solid whitesmoke;
+   width:800px;
+   height:480px;
+   background-color:white;
+   margin-left:300px;
+   margin-top:22px;
+}
+.back{
+        border:1px solid whitesmoke;
+        color:rgb(26, 187, 250);
+        margin-left:300px;
+        
+        font-size:14px;
+        
+    }
+#btn{
+    margin-top:10px;
+}
+.b1{
+    border:2px solid black;
+    width:800px;
+    height:60px;
+    background-color: rgb(43, 43, 146);
+    color:white;
+    
+
+}
+#text1{
+    margin:20px 0px 20px 70px;
+    font-family: 'Manrope', sans-serif;
+}
+.b2{
+    border:1px solid whitesmoke;
+    width:800px;
+    height:130px;
+    background-color: white;
+   
+}
+#first{
+    border:1px solid whitesmoke;
+    
+    
+}
+#mob{
+ 
+    height:40px;
+    margin-left:20px;
+    margin-top:10px;
+    text-align:left;
+    font-family: 'Manrope', sans-serif;
+}
+#num{
+    
+    height:40px;
+    margin-left:20px;
+}
+#second{
+    border:1px solid whitesmoke;
+    height:126px;
+    color:lightgrey;
+}
+
+input{
+    
+    height:30px;
+    width:200px;
+}
+#otp{
+   
+    height:50px;
+    margin-left:20px;
+
+}
+.back:hover{
+   color:blue;
+
+}
+#btn1{
+   
+    height:50px;
+    
+}
+#cont{
+    color:rgb(75, 73, 73);
+    width:200px;
+    height:40px;
+    margin-left:20px;
+    font-family: 'Manrope', sans-serif;
+
+}
+#t1{
+    color:rgb(158, 154, 154);
+    height:46px;
+    margin-left:34px;
+    font-family: 'Manrope', sans-serif;
+}
+#t2{
+    color:rgb(158, 154, 154);
+  height:46px;
+  margin-left:25px;
+  font-family: 'Manrope', sans-serif;
+}
+
+#b3{
+   
+    margin-top:10px;
+}
+#f1{
+    display:flex;
+    margin-top:5px;
+}
+#img1{
+    height:15px;
+    width:48px;
+    border-radius: 50%;
+    background-color:rgb(126, 134, 138);
+    margin-left:12px;
+}
+#img2{
+    height:15px;
+    width:40px;
+    border-radius: 50%;
+    background-color:rgb(152, 165, 170);
+    margin-left:15px;
+}
+#img3{
+    height:15px;
+    width:30px;
+    border-radius: 50%;
+    background-color:rgb(152, 165, 170);
+    margin-left:18px;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div id="pic" >
+            <img src="https://i2.wp.com/www.cosmoderma.healios.co.in/wp-content/uploads/2019/04/practo.png?fit=1586%2C1057"/>
+   
+          </div>
+        </div>
+
+          <div id="btn">
+            <button class="back" onclick="backtocart()"><span><b>&#8592;</b></span>&ensp;<b>Back to my cart</b></button>
+        </div>
+            
+
+    <div class="box">
+           <div class="b1">
+               <div id="text1">
+                   <b>Login</b>
+               </div>
+           </div>
+
+           <div class="b2">
+            
+           
+                 <div id="mob">Mobile number*</div>
+
+                 <div id="num">
+                    <input type="text" value="+91"/>
+                 
+                </div>
+            
+             </div>
+
+             <div id="second">
+                 <div id="otp">You will get an OTP on this number </div>
+
+                 <div id="btn1">
+                     <button id="cont">Continue</button>
+                   
+                 </div>
+             </div>
+          
+
+           <div class="b3">
+            <div id=f1>
+                <img src="data:image/png;base64,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" id="img1"/>
+               <div id="t1">Delivery Details</div>
+             
+            </div>
+            
+            <div id="f1">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHTvSW1D7eUv9VeYTedHunuVD7seixrs4k6Q&usqp=CAU" id="img2"/>
+                <div id="t2">Prescription </div>
+               
+            </div>
+           
+            <div id="f1">
+                <img src="https://cdn0.iconfinder.com/data/icons/web-and-business-1/512/Indian_Rupee-512.png" id="img3"/>
+                <div id="t1">Payment Details</div>
+               
+            </div>
+           
+               
+
+           </div>
+        </div>
+        </div>
+          
+
+
+
+
+</body>
+</html>
+
+
+<script>
+      function backtocart(){
+        document.getElementsByClassName("back")
+		window.location.href = "index.html";
+    }
+
+</script>
+
