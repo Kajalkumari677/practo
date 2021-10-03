@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+</head>
+<style>
+     body{
+        margin-top:80px;
+        background-color:rgb(236, 239, 241);
+        border:1px solid whitesmoke;
+        height:550px
+    }
+    .container{
+        position: fixed;
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+        border:1px solid whitesmoke;
+        padding-bottom: 10px;   
+    }
+    img{
+        width:110px;
+        height:65px;
+        
+    }
+    #pic{
+        margin:10px 30px 0px 80px;
+        
+       
+    }
+    .previous{
+        border:1px solid whitesmoke;
+        color:rgb(90, 185, 223);
+        margin-left:300px;
+        
+        font-size:20px;
+        
+    }
+    span {
+  content: "\2190";
+  margin-right: 10px;
+  font-size:20px;
+  
+}
+.box{
+   
+    width:800px;
+    height:480px;
+    background-color:white;
+    margin-left:300px;
+    margin-top:20px;
+    
+}
+.wrapper{
+     margin-top:12px ;
+     width:50px;
+}
+.l1{
+        margin:20px 30px 0px 25px;
+        
+    }
+.box1{
+    display:flex;
+    border:3px solid rgb(241, 238, 238);
+   width:100%;
+   height:70px;
+    
+   
+}
+.r1{
+    border:1px solid whitesmoke;
+    margin-left:260px;
+    margin-top:20px;
+    font-size:18px;
+}
+.box2{
+    border:1px solid whitesmoke;
+    height:150px; 
+    display:flex;
+}
+#l2{
+    border:1px solid whitesmoke;
+width:110px;
+
+}
+#l2:hover{
+    border:2px solid skyblue
+}
+#img1{
+    margin-top:30px;
+    height:100px;
+}
+#med{
+    border:1px solid whitesmoke; 
+    width:480px;
+   
+}
+#r2{
+    border:1px solid whitesmoke;
+    width:28% ;
+    text-align:right;
+    margin-right:20px;
+    
+}
+ins{
+    color:green
+}
+#off{
+    margin-top:5px;
+}
+#b1{
+    width:150px;
+    height:40px;
+    margin-top:50px;
+    color:white;
+    background-color: rgb(90, 185, 223);
+}
+#box3{
+    border:1px solid whitesmoke;
+    width:100%;
+    height:150px;
+    
+}
+.b2{
+    color:rgb(90, 185, 223);
+    background-color:white;
+    border:2px solid rgb(90, 185, 223);
+    width:300px;
+    height:50px;
+    margin:20px;
+    border-radius: 5px;
+    
+}
+input{
+    width:100px;
+    height:30px;
+   
+   
+}
+#box4{
+    display:flex;
+    border:1px solid whitesmoke;
+    height:10%;
+}
+#l3{
+    border:1px solid whitesmoke;
+    margin-left:20px;
+
+}
+#r3{
+    border:1px solid whitesmoke;
+    margin-left:500px;
+    color:green
+    
+}
+.b3{
+    color:white;
+    background-color:rgb(90, 185, 223);
+    border:2px solid rgb(90, 185, 223);
+    width:100%;
+    height:50px;
+   
+    border-radius: 5px;
+}
+.b3:hover{
+    background-color: blue;
+
+}
+.b2:hover{
+    background-color: blue;
+
+}
+
+.previous:hover{
+    color:darkblue
+}
+
+
+</style>
+<body>
+    
+
+    <div class="container">
+        <div id="pic" >
+            <img src="https://i2.wp.com/www.cosmoderma.healios.co.in/wp-content/uploads/2019/04/practo.png?fit=1586%2C1057"/>
+   
+        </div>
+     </div>
+     <div>
+         <button class="previous" onclick="gotocart()"><span><b>&#8592;</b></span>Go to Previous page</button>
+     </div>
+     <div class=box>
+           
+        <div class="box1">      
+            <div class="l1">
+           
+                <section class="wrapper">
+                    <select>
+                      <option value="" selected>Deliver to 171-C, Sk, Dan..</option>
+                      <option>171-C, S K, Danapur Nizamat, Bihar..</option>
+
+                      <option>101, Boring Canal Rd, patna..</option>
+
+                      <option>4/71, opposite Regent Continent..</option>
+                    </select>
+                  </section>
+
+             </div>
+
+           <div class="r1"><b>My Cart: 1 item</b></div>
+
+         </div>
+        
+        
+                <div class="box2">
+                          <div id="l2">
+                                 <img src="https://www.practostatic.com/practopedia-v2-images/res-150/1ae29e21f975c617b63e11731987adf218b66b661.JPG" id="img1"/>
+                            </div>
+        
+                        <div id="med">
+                         <div>
+                            BEVON Capsule 15`S
+                           </div>
+
+                         <div>
+                            ZUVENTUS HEALTH CARE LTD
+                           </div>
+
+                         <div>
+                            15`S
+                            </div>
+                  
+
+
+
+
+                       </div>
+
+                      <div id="r2">
+
+                    <div>
+                        <b>Rs.96.6  </b>  
+                        <br>
+                    </div>
+                    <div id="off">
+                        <del>   ₹120.75</del> <ins>20% off</ins>
+                        <br>
+                       </div>
+
+                     <div>
+                     <button id="b1"><span>&#43;</span>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<span>&#8722;</span</button>
+                       </div>
+                    </div>
+
+    </div>
+        
+     <div id="box3">
+           <!-- <button id="b2"><b>Add more medicines</b></button> -->
+           <button onclick="gotomedicines()" class="b2">Add more medicines</button>
+
+           
+    </div>
+        <div id="box4">
+            <div id="l3">
+                <b>Payable Amount: ₹869.4</b>
+                 </div>
+    
+                 <div id="r3">
+                   <b> Save ₹217.35</b>
+                  </div>
+            
+           
+        </div id="last">
+        
+        <!-- <button class="b3"><b>Checkout</b></button> -->
+        <button class = "b3" onclick="gotopayment()">Checkout</button>
+    </div> 
+</body>
+</html>
+<script>
+    function gotohome(){
+		document.getElementsByClassName("b3")
+		window.location.href = "find_doctor.html";
+		
+	}
+   
+    function gotocart(){
+		document.getElementsByClassName("previous")
+		window.location.href = "cart_detail.html";
+		
+	}
+    function gotomedicines()
+    {
+        document.getElementsByClassName("b2")
+		window.location.href = "medicines.html";
+    }
+
+    function gotopayment()
+    {
+        document.getElementsByClassName("b3")
+		window.location.href = "payment_page.html";
+    }
+</script>
