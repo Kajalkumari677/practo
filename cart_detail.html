@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart_detail</title>
+</head>
+<style>
+        body{
+        margin-top:80px;
+        border:3px solid  whitesmoke;
+        padding: 0;
+    
+        
+    }
+    .container{
+        position: fixed;
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+        border:3px solid  whitesmoke;
+        padding-bottom: 10px;
+    }
+    img{
+        width:110px;
+        height:65px;
+        
+    }
+    #pic{
+        margin:10px 30px 0px 80px;
+       
+    }
+    #large{
+       
+        color:rgb(17, 10, 10);
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+       
+    }
+    #small{
+      
+        color: rgb(19, 18, 18);
+        font-size: 12px;
+        font-family:  'Assistant', sans-serif;
+        margin-top:3px;
+       
+       
+    }
+    .d1{
+        margin:20px 10px 0px 10px;
+       
+    }
+    
+    .d2{
+        margin:20px 30px 0px 25px;
+        
+    }
+    #first{
+        color:blue;
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+        
+    }
+.wrapper{
+     margin-top:12px ;
+}
+input{
+    width:90px;
+    height:30px;
+    margin:25px 10px 0px 10px;
+}
+.container2{   
+    position: fixed;
+         top:9;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+         border:3px solid  whitesmoke;
+         padding-bottom: 10px;
+  
+}
+textarea{
+    width:600px;
+    margin:10px 0px 0px 80px;
+    border:3px solid  rgb(230, 227, 227);
+}
+.b1{
+
+   width:190px;
+    height:50px;
+    margin:10px 0px 10px 430px;
+    background-color: rgb(65, 194, 245);
+    color:white;
+}
+
+
+.container3{
+    height:700px;
+    margin-top:82px;
+    border:3px solid  whitesmoke;
+    display:flex;
+    background-color: rgb(248, 244, 244);
+}
+#left{
+   
+    width:480px;
+    margin-left:45px;
+   
+}
+.sub{
+   
+    display:flex;
+   
+}
+#subL{
+    
+    width:120px;
+    height:335px;
+    margin-right:30px;
+    
+    
+
+}
+#med1{
+   
+margin-top:2px;
+}
+#med2{
+    
+    margin-top:20px;
+}
+#med3{
+   
+    margin-top:40px
+}
+.sub2{
+    
+    width:380px;
+    height:200px;
+    margin-left:90px;
+}
+
+span{
+    margin-left:140px;
+    font-size:18px;
+    font-family:  'Assistant', sans-serif;
+    color: rgb(68, 66, 66);
+    
+}
+
+.view{
+    width:150px;
+    height:50px;
+   margin:20px 38px 0px 0px;
+    background-color: rgb(65, 194, 245);
+    color:white;
+    font-size:22px;
+    
+}
+
+#size{
+    color: rgb(75, 72, 72);
+    font-size:12px;
+    font-family:  'Assistant', sans-serif;
+}
+#subR{
+    
+    width:430px;
+    height:335px;
+    
+
+}
+#lar_img{
+    width:250px;
+    margin-left:50px;
+    height:300px;
+}
+#right{
+    border:3px solid  whitesmoke; 
+    width:100%;
+    height:680px;
+    font-family: 'Manrope', sans-serif;
+}
+#font1{
+    font-size:22px;
+}
+.home{
+    border:1px solid whitesmoke;
+    margin:20px;
+}
+.home:hover{
+  color:blue;
+}
+.b1:hover{
+    background-color: blue;
+}
+.view:hover{
+    background-color: blue;
+}
+#med1:hover{
+    border:1px solid blue
+}
+#quant{
+    border:1px solid red;
+}
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+   
+
+</style>
+<body>
+    <div class="container">
+        <div id="pic" >
+            <img src="https://i2.wp.com/www.cosmoderma.healios.co.in/wp-content/uploads/2019/04/practo.png?fit=1586%2C1057"/>
+   
+          </div>
+   
+          <div class="d1">
+              <div id="first"><b>Find Doctors</b></style></b></div>
+             <div id="small"><b>Book an appointment</b></div>
+         
+          </div>
+   
+          <div class="d1">
+           <div id="large"><b>Video Consult</b></div>
+          <div id="small"><b>Consult top doctors</b></div>
+      
+          </div>
+   
+   
+          <div class="d1">
+           <div id="large"><b>Medicines</b></div>
+          <div id="small"><b>Practo pharmacy</b></div>
+      
+          </div>
+   
+         
+          <div class="d1">
+           <div id="large"><b>Labs Tests</b></div>
+          <div id="small"><b>Book test & checkup</b></div>
+      
+           </div>
+   
+            
+           <div class="d1">
+               <div id="large"><b>Surgeries</b></div>
+              <div id="small"><b>Expert surgical care</b></div>
+          
+            </div>
+   
+            <div class="d2">
+              
+               <section class="wrapper">
+                   <select>
+                     <option value="" selected>For Providers</option>
+                     <option>Option 1</option>
+                     <option>Option 2</option>
+                     <option>Option 3</option>
+                   </select>
+                 </section>
+          
+            </div>
+   
+            <div class="d2">
+              
+               <section class="wrapper">
+                   <select>
+                     <option value="" selected>Security & help</option>
+                     <option>Option 1</option>
+                     <option>Option 2</option>
+                     <option>Option 3</option>
+                   </select>
+                 </section>
+          
+            </div>
+   
+            <input type="button" value="login/sign-up">
+       </div>
+          
+       <div class="container2">
+        <div id="">
+            <textarea>Search for medicines, health products and more</textarea>
+        </div>
+        <div id="cart">
+            <button class="b1" onclick="gotocheckout()">view cart</button>
+        </div>
+       
+    </div> 
+
+      
+       <div class="container3">
+           
+        <div  id="left">
+            <div>
+                <button  class="home" onclick="gotohome()">Home <b>Bevon Capsule</b></button>
+            </div>
+           
+
+            <div class="sub">
+                <div id="subL">
+                   <div id="med1">
+                   <img src="https://www.practostatic.com/practopedia-v2-images/res-150/1ae29e21f975c617b63e11731987adf218b66b661.JPG"/>
+                       
+                </div>
+
+                   <div id="med2">
+                    <img src="https://www.practostatic.com/practopedia-v2-images/res-150/2b714e06637ce1e6573ca3839da8aa85b1d03a572.JPG"/> 
+                      </div>
+
+                   <div id="med3">
+                    <img src="https://www.practostatic.com/practopedia-v2-images/res-150/1c83dacc2eb8d0fad75979f93bf06073c09831fe3.JPG"/>
+                      </div>
+                </div>
+
+                <div id="subR">
+               <img src="https://www.practostatic.com/practopedia-v2-images/res-150/1ae29e21f975c617b63e11731987adf218b66b661.JPG" id="lar_img"/>
+                </div>
+            </div>
+
+
+
+            <div class="sub2">
+                <div id="chrg">
+                    <p><b>Rs.96.6  </b><del>   Rs.120.75</del> <ins>20% off</ins></p>
+                    <p id="size">PACK SIZE<span>  unit count</span></p>
+                </div>
+
+                <div class="add">
+                   <div  >
+                   
+                  <button class="view" onclick="gotocheckout1()">View Cart</button>
+                   </div>
+                   <div>
+
+                   </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+
+
+        <div  id="right">
+            <div>
+                <div id="font1">Bevon Capsule</div>
+                <div>Manufactured ByZuventus Healthcare Ltd. </div>
+                <br>
+                <hr>
+
+                <h3>Highlights</h3>
+                <ul>
+                    <li>Bevon Capsule is a multivitamin, multimineral, and antioxidant combination.</li>
+
+                    <li>It enhances the energy levels in the body</li>
+
+                    <li>It improves immune and nerve health</li>
+
+                    <li>The B vitamins, iron, and zinc present in this suspension improve normal cognitive function in the brain.</li>
+
+                    <li>It prevents oxidative stress and tissue damage.</li>
+
+                    <li>It helps to fight against infections</li>
+                </ul>
+                <br>
+                 <hr>
+                 <h3>Ingredients</h3>
+                 <div>Pyridoxine Hydrochloride, Niacinamide, Cyanocobalamin, Folic acid, Biotin, Betacarotene, Elemental Zinc, Elemental Selenium, Elemental Copper, Chromium</div>
+                 <br>
+                 <hr>
+
+                 <h3>Direction for use</h3>
+                 <div>1 capsule can be taken once daily or as directed by the doctor.</div>
+                 <br>
+                 <hr>
+
+                 <h3>Storage</h3>
+                 <div>Store the capsule in a cool and dry place. Keep away from sunlight. Do not use the product after the expiry date.</div>
+                 <br>
+                 <hr>
+
+                 <h3>Something doesn’t feel right?</h3>
+            </div>
+           
+
+        </div>
+               
+       </div>
+
+
+       <!-- footer -->
+
+       <div style = "background-color: rgb(50, 50, 146); display : flex; margin : 0px">
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;">Practo</h4>
+<ul>
+
+    <li style = "color: white;">About</li>
+     <li style = "color: white;">Blog</li>  
+        <li style = "color: white;">Careers</li>
+        <li style = "color: white;">Press</li>  
+        <li style = "color: white;">Contact Us</li>
+</ul>
+
+
+
+        </div>
+
+
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;">For Patients</h4>
+<ul>
+
+  
+<li style = "color: white;">Search for doctors</li>
+<li style = "color: white;">Search for clinics</li>
+<li style = "color: white;">Search for hospitals</li>
+<li style = "color: white;">Book Diagnostic Tests</li>
+<li style = "color: white;">Book Full Body Checkups</li>
+<li style = "color: white;">Practo Plus</li>
+<li style = "color: white;">Read health articles</li>
+<li style = "color: white;">Read about medicine</li>
+<li style = "color: white;">Practo drive</li>
+<li style = "color: white;">Health app</li>
+</ul>
+
+
+
+        </div>
+
+        
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;">For doctors</h4>
+            <p style = "color: white;">Practo Profile</p>
+
+            <h4 style = "color: white;"> For Clinics</h4>
+<ul>
+
+  
+<li style = "color: white;">Ray by Practo</li>
+<li style = "color: white;">Practo Reach</li>
+<li style = "color: white;">Ray Tab</li>
+<li style = "color: white;">Practo Pro</li>
+
+</ul>
+
+
+
+        </div>
+
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;">For Hospitals</h4>
+            
+
+            
+<ul>
+
+  
+<li style = "color: white;">Insta by Practo</li>
+<li style = "color: white;">Quickwell by Practo</li>
+<li style = "color: white;">Practo Profile</li>
+<li style = "color: white;">Practo Reach</li>
+
+</ul>
+
+
+
+        </div>
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;">More</h4>
+           
+
+           
+<ul>
+
+  
+<li style = "color: white;">Help</li>
+<li style = "color: white;">Developers</li>
+<li style = "color: white;">Privacy Policy</li>
+<li style = "color: white;">Terms & Conditions</li>
+<li style = "color: white;">Healthcare Directory</li>
+<li style = "color: white;">Practo Careness</li>
+<li style = "color: white;">Corporare Welfares</li>
+
+</ul>
+
+
+
+        </div>
+        <div style = "margin :50px 50px 100px ">
+
+            <h4 style = "color: white;" >Social</h4>
+           
+
+           
+<ul>
+
+  
+<li style = "color: white;">Facebook</li>
+<li style = "color: white;">Twitter</li>
+<li style = "color: white;">Linkedin</li>
+<li style = "color: white;">Youtube</li>
+<li style = "color: white;">Github</li>
+
+</ul>
+
+
+
+        </div>
+        </div>
+
+        <div style = "background-color : rgb(50, 50, 146)">
+            <div style =" margin : -20px 350px 10px 500px; background-color : rgb(50, 50, 146);">
+<img src = "data:image/jpeg;base64,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" style = "width : 350px ; height : 150px; background-color: blue;"/>
+</div>
+
+    <p style = "text-align: center; color : white ; margin-top:-20px">Copyright © 2017, Practo. All rights reserved.</p>
+
+
+
+        </div>
+
+
+
+      
+
+        </div>
+
+
+</body>
+</html>
+
+<script>
+    function gotohome(){
+		document.getElementsByClassName("home")
+		window.location.href = "find_doctor.html";
+		
+	}
+    function gotocheckout(){
+		document.getElementsByClassName("b1")
+		window.location.href = "checkout.html";
+		
+	}
+
+    function gotocheckout1(){
+		document.getElementsByClassName("view")
+		window.location.href = "checkout.html";
+		
+	}
+   
+</script>
