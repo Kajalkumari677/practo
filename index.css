@@ -1,0 +1,341 @@
+   #container{
+        position: fixed;
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+       
+        padding-bottom: 10px;
+    }
+    button  :hover {
+
+        background-color: rgb(96, 222, 244);
+
+        
+    }
+
+
+             
+        #contn {
+            display : flex;
+            border : 1px solid white;
+            background-color: white;
+            height : 100px;
+            margin : 10px;
+            width : 100%;
+        }
+
+        #ontn {
+           position:fixed;
+            display : flex;
+            border : 1px solid wheat;
+            background-color:white;
+            height : 80px;
+            width : 100%;
+        }
+        #logo {
+
+            margin : 10px 100px;
+        }
+        
+       
+
+       
+
+#img {
+margin : 20px;
+display : flex;
+
+
+}
+
+#findDoctors {
+    margin : 10px 5px;
+}
+
+
+#a {
+border : 1px solid wheat;
+    margin : 20px
+}
+
+#products {
+
+margin : 20px;
+border : 1px solid wheat;
+height : 1600px;
+
+display: grid;
+grid-template-columns: 20% 20% 20% 20%;
+grid-template-rows: 30%;
+grid-gap: 5%;
+justify-content: center;
+}
+
+img {
+
+    width : 95%
+}
+.find {
+
+    background-color: white; 
+    border : 1px solid white;
+    margin-top : 0px;
+}
+.find1 {
+
+    background-color: white; 
+    border : 1px solid white;
+    margin-top : 0px;
+}
+
+.find2 {
+
+background-color: white; 
+border : 1px solid white;
+margin-top : 0px;
+}
+
+.find3 {
+
+background-color: white; 
+border : 1px solid white;
+margin-top : 0px;
+}
+
+#practoImg {
+  width :100px; height:60px;
+}
+
+.beauty {
+
+    font-family: serif;
+     font-size: medium;
+}
+.beauty2 {
+    font-family: serif;
+     font-size: small;
+}
+
+.providers {
+    margin : 10px 30px; 
+}
+
+#login {
+    margin : 20px 5px 25px 20px ; border : 1px solid black ; padding : 5px;
+
+}
+
+#hide {
+
+width :100px;
+ height:60px;
+}
+
+#thief {
+    margin : 10px 100px;
+}
+
+#location {
+    margin : 30px 0px 30px 100px ; border : 1px solid white; 
+}
+
+#location1 {
+    margin : 30px 200px 30px 0px; border : 1px solid white; 
+}
+
+#new {
+    margin : 30px 100px ; border : 1px solid white ;
+}
+
+#new1 {
+
+    width : 200px ; height : 35px;
+}
+
+#input1 {
+
+    width : 300px ; height : 30px;
+}
+
+#input2 {
+    width : 300px ; height : 30px;
+
+}
+
+.format {
+
+    margin : 20px; width : 250px ;
+     height : 250px;
+      border : 1px solid white; 
+      border-radius: 10px; 
+}
+.turbo {
+    width : 250px; height : 250px; border-radius : 35px;
+}
+
+#doctor {
+    margin : 100px; display : flex;
+}
+
+.margin {
+    margin : 10px 5px
+    }
+    #img {
+         display : flex
+    }
+
+    #view {
+        margin : 20px 20px 20px 400px; border : 1px solid white;
+    }
+
+    .special {
+      margin : 20px;
+       width : 200px ;
+        height : 200px;
+         border : 1px solid rgb(253, 242, 242);
+    }
+    .raju {
+        width : 200px; 
+        height : 200px;; 
+        border-radius : 100px;
+
+    }
+
+    #shyam {
+
+        margin : 100px; display : flex;
+    }
+    #x {
+      margin : 20px 20px 20px 400px; border : 1px solid white;
+    }
+
+#y {
+    border : 2px solid skyblue;
+     width : 200px; 
+     height : 60%; background-color:white;
+}
+
+#graphics {
+
+    margin : 100px; display : flex;
+}
+.mohan {
+    margin : 20px; width : 250px ; height : 250px; border : 1px solid white
+}
+
+#img1 {
+    display : flex;
+}
+#park {
+    display : flex;
+}
+
+.kohli {
+    width : 250px; height : 250px;
+    
+}
+
+#yuvi {
+    margin : 100px; display : flex;border : 1px solid white;
+}
+
+#ms {
+
+   margin : 20px; width :40% ;border : 1px solid white;
+}
+
+#maria {
+
+    background-color: skyblue;height : 45px;
+}
+
+.newest {
+
+    margin : 40px;
+}
+#raina {
+
+    margin :  200px 500px 200px;
+}
+#mahi {
+    background-color: rgb(50, 50, 146); display : flex; margin : 0px;
+}
+
+#zoo {
+  margin : 200px; display : flex;
+}
+.rohit {
+   margin :50px 50px 100px 
+}
+
+#rahul {
+
+    margin : 20px 0px; display: flex; padding: 20px;
+} 
+
+#puji {
+
+    background-color : rgb(50, 50, 146);
+}
+
+#kl {
+
+     margin : 0px 350px 10px 600px; background-color : rgb(50, 50, 146);
+}
+#shubh {
+
+    width : 350px ; height : 200px; background-color: blue;"
+}
+
+#park1 {
+
+   margin : 50px 200px;
+}
+
+#park2 {
+
+    background-color : rgb(21, 181, 192); height : 35px ;width : 250px;padding-top: 2px;
+}
+#root {
+
+    margin : 50px 0px 50px 100px;
+}
+
+li {
+
+    color : white;
+}
+#murli {
+  text-align: center; color : white;
+}
+.rohit > h4 {
+
+    color : white;
+}
+
+#bob {
+
+    font-family: sans-serif;color: white;text-align: center;
+}
+
+.teal {
+
+    color : teal;
+}
+#rishab{
+    color:skyblue;
+}
+#ishan{
+    border : 2px solid skyblue; 
+    width : 200px; height : 60%;
+     background-color:white;
+}
+#chahal{
+    width : 350px;
+     height : 400px; 
+     margin: 100px
+}

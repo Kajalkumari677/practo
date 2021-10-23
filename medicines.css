@@ -1,0 +1,295 @@
+.container{
+       /* position: fixed;*/
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+        padding-bottom: 10px;
+    }
+    img{
+        width:80px;
+        height:40px;
+        
+    }
+    #pic{
+        margin: -80px 30px 0px 80px;
+       
+    }
+    #large{
+       
+        color:rgb(17, 10, 10);
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+       
+    }
+    #small{
+      
+        color: rgb(19, 18, 18);
+        font-size: 12px;
+        font-family:  'Assistant', sans-serif;
+        margin-top:3px;
+       
+       
+    }
+    .d1{
+        margin:20px 10px 0px 10px;
+       
+    }
+    
+    .d2{
+        margin:20px 30px 0px 25px;
+        
+    }
+    #first{
+        color:blue;
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+        
+    }
+.wrapper{
+     margin-top:12px ;
+}
+input{
+    width:90px;
+    height:30px;
+    margin:25px 10px 0px 10px;
+}
+
+
+img {
+
+    height: 250px;
+    width: 100%;
+}
+#top{
+    /* position: fixed;
+    background-color: ghostwhite; */
+    display: flex;
+    margin: 20px 20px 50px 40px;
+   
+}
+#top button{
+    width: 500px;
+    height: 30px;
+    margin-left: 90px;
+    font-size: 19px;
+    color:darkgray;
+}
+#mySlideshow{
+
+    background-color:lightblue;
+    padding: 10px 100px 0px 110px;
+    ;
+    
+}
+.vc{
+    margin-left: 440px;
+    text-align: center;
+    width: 50px;
+    height: 60px;
+    background-color: darkturquoise;
+    padding: 10px;
+}
+#container2{
+    width: 83%; 
+    margin: auto;
+     /* margin: 50px 150px 50px 150px; */
+}
+.contA{
+    display: flex;
+    /* margin: auto;
+    width: 90%; 
+    justify-content: space-between;*/
+    column-gap: 10px;
+    padding: 5px 5px 5px 5px;
+    
+}
+#contB{
+    display: flex;
+    column-gap: 20px;
+    flex-basis: 100px;
+    border:1px solid whitesmoke;
+    background-color: white;
+}
+.countb{
+    display: flex;
+    column-gap: 4px;
+}
+.countb h3{
+    margin-top: 10px;
+}
+.countb .pc{
+    color: green;
+}
+.countb .discnt{
+    margin-top: 13px;
+}
+ img{
+    width: 100%;
+}
+#contC{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 40px;
+}
+#contC h6{
+    color: darkturquoise;
+    font-size: 12px;
+}
+#contC p {
+    font-size: 20px;
+}
+#contD{
+    display: flex;
+    column-gap: 40px;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 40px;
+}
+#contD img {
+    height: 100%;
+    width: 100%;
+}
+#imgbg{
+    background-color:lightblue;
+    padding: 10px 100px 2px 110px;
+}
+#imgbg img{
+    /* width: 100%; */
+    height: 280px;
+   
+}
+#applink{
+    display: flex;
+    column-gap: 30px;
+}
+#phnum{
+    width: 250px;
+    height: 40px;
+    /* margin-bottom: 20px; */
+}
+#appbg{
+    padding: 19px;
+    text-align: center;
+    background-color: darkturquoise;
+    /* border: solid red 1px; */
+    height: 10px;
+    width: 120px;
+    margin-top: -1px;
+}
+#logo{
+    display: flex;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.logoA{
+    width: 200px;
+    height: 50px;
+}
+#text{
+    background-color: white;
+    margin: -100px 100px 10px 100px;
+    font-size: 15px;
+}
+#review{
+    display: flex;
+    column-gap: 20px;
+}
+#reviewbox{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: -100px;
+}
+#review img{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+#pfont{
+    margin: 50px 100px 10px 100px;
+    font-size: 24px;
+}
+
+#mahi {
+    background-color: rgb(50, 50, 146); display : flex; margin : 0px;
+}
+
+#zoo {
+  margin : 200px; display : flex;
+}
+.rohit {
+   margin :50px 50px 100px 
+}
+
+#rahul {
+
+    margin : 20px 0px; display: flex; padding: 20px;
+} 
+
+#puji {
+
+    background-color : rgb(50, 50, 146);
+}
+
+#kl {
+
+     margin : 0px 350px 10px 600px; background-color : rgb(50, 50, 146);
+}
+#shubh {
+
+    width : 350px ; height : 200px; background-color: blue;"
+}
+
+#park1 {
+
+   margin : 50px 200px;
+}
+
+#park2 {
+
+    background-color : rgb(21, 181, 192); height : 35px ;width : 250px;padding-top: 2px;
+}
+#root {
+
+    margin : 50px 0px 50px 100px;
+}
+
+li {
+
+    color : white;
+}
+#murli {
+  text-align: center; color : white;
+}
+.rohit > h4 {
+
+    color : white;
+}
+
+#bob {
+
+    font-family: sans-serif;color: white;text-align: center;
+}
+
+.teal {
+
+    color : teal;
+}
+#rishab{
+    color:skyblue;
+}
+#ishan{
+    border : 2px solid skyblue; 
+    width : 200px; height : 60%;
+     background-color:white;
+}
+#chahal{
+    width : 350px;
+     height : 400px; 
+
+}
