@@ -1,0 +1,69 @@
+body{
+       /* padding: 70px;*/
+    }
+    #main{
+        display: flex;
+        height: 800px;
+        width: 1200px;
+        background-color: rgb(50,50,146);
+        padding: 50px;
+        margin-left: 40px;
+    }
+    #conta{
+        margin-top: 100px;
+        margin-left: 30px;
+        width: 40%;
+        display: grid;
+    }
+    #conta img{
+        height: 80px;
+        width: 100%;
+    }
+    #conta hr{
+        border-radius: 5px;
+        height: 4px;
+        width: 60px;
+        background-color: white;
+        margin-left: 0px;
+        margin-top: -65px;
+    }
+    #contb{
+        width: 40%;
+        display: grid;
+    }
+    #contb div{
+        margin-top: -140px;
+        color: white;
+    }
+    #box{
+        height: 10px;
+        width: 290px;
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .color{
+        color: white;
+    }
+    #text1{
+        margin-top: 5px;
+        font-size: 40px;
+    }
+    #text2{
+        font-size: 20px;
+        margin-top: -95px;
+    }
+
+    
+    #ontn {
+        
+            display : flex;
+          
+            background-color:white;
+            height : 80px;
+            width : 100%;
+            margin-left:70px;
+
+
+        }
+        
