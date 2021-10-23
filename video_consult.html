@@ -6,654 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Doctor Consultation | Ask Top Doctor's Advice 24*7 | Practo</title>
+    <link rel="stylesheet" href="video_consult.css"/>
 </head>
 <style>
-    #header {
-        width: 100%;
-        height: 80px;
-        z-index: 9999;
-       
-       
-    }
-
-    #section1 {
-        background-color: #FBE9E7;
-        width: 100%;
-        height: 400px;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        gap: 0%;
-        /* border: 1px solid black; */
-    }
-
-    .first1 {
-        margin: 0% 75% 0% 20%;
-        width: 88%;
-        height: 400px;
-        /* border: 1px solid yellow; */
-    }
-
-    .first11 {
-        font-size: 20px;
-        line-height: 1.2;
-        padding-top: 30px;
-    }
-
-    .firstp1 {
-        line-height: 0;
-        font-size: 23px;
-    }
-
-    .doctorImg {
-
-        height: 40px;
-        /* border: 1px solid red; */
-    }
-
-    .img {
-        margin-top: 10px;
-        height: 37px;
-        border-radius: 50%;
-        border: 3px solid white;
-
-    }
-
-    .onlinedoc {
-        vertical-align: 17px;
-
-        /* vertical-align: top; */
-
-    }
-
-    .first2 {
-        width: 88%;
-        height: 300px;
-        margin-top: 100px;
-        /* border: 1px solid blue; */
-    }
-
-    .first21 {
-
-        width: 94%;
-    }
-
-    .button1 {
-        margin-top: 25px;
-        margin-bottom: 10px;
-        padding: 14px 30px;
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        background-color: #29B6F6;
-        border-radius: 5px;
-        border: 2px solid whitesmoke;
-
-    }
-
-    .sign1 {
-        margin-top: 5%;
-    }
-
-    .sign12 {
-        padding: 10% 5% 10% 0%;
-    }
-
-    /* for second section */
-    #section2 {
-        display: grid;
-
-        /* border: 1px solid red; */
-    }
-
-    .second1 {
-        margin-left: 10%;
-        margin-top: 2%;
-        margin-right: 30%;
-        /* border: 1px solid red; */
-    }
-
-    .secondp1 {
-        font-size: 20px;
-        color: #9E9E9E;
-    }
-
-    .second2 {
-        margin-top: -5%;
-        margin-left: 77%;
-        /* border: 1px solid red; */
-    }
-
-    .button2 {
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 15px;
-        background-color: white;
-        border: 1px solid rgb(163, 151, 151)
-    }
-
-    .second3 {
-        display: grid;
-        grid-template-columns: 13% 13% 13% 13% 13% 13%;
-        margin-left: 10%;
-        margin-right: 10%;
-        gap: 50px;
-        /* border: 1px solid red; */
-
-    }
-
-    .secondd3 {
-        background-color: white;
-        border-radius: 5px;
-        border: 1px solid whitesmoke;
-
-        /* border: 1px solid red; */
-    }
-
-
-    .three {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .three1 {
-        /* margin-left: 50px; */
-        text-align: center;
-        color: #9E9E9E;
-        line-height: 1;
-    }
-
-    .three2 {
-        padding-top: 10px;
-        /* margin-left: -25px; */
-        text-align: center;
-        font-size: 15px;
-        font-weight: bold;
-        color: #03A9F4;
-
-    }
-
-    .img3 {
-        margin-left: 25px;
-    }
-
-    #section3 {
-        display: grid;
-
-        /* border: 1px solid red; */
-
-    }
-
-    .third1 {
-        margin-left: 10%;
-        margin-top: 2%;
-        margin-right: 30%;
-        /* border: 1px solid red; */
-
-    }
-
-    .thirdh1 {}
-
-    .thirdp1 {
-        font-size: 20px;
-        color: #9E9E9E;
-
-    }
-
-    .third2 {
-        margin-top: -5%;
-        margin-left: 77%;
-        /* border: 1px solid red; */
-
-    }
-
-    .button3 {
-        border-radius: 10px;
-        padding: 10px 20px;
-        font-size: 15px;
-        background-color: white;
-        border: 1px solid rgb(163, 151, 151);
-    }
-
-    .third3 {
-        display: grid;
-        grid-template-columns: 23% 23% 23% 23%;
-        gap: 2%;
-        margin-right: 10%;
-        margin-left: 10%;
-        margin-top: 2%;
-        /* border: 1px solid red; */
-    }
-
-    .thirdd3 {
-        background-color: white;
-        border-radius: 5px;
-        border: 1px solid whitesmoke;
-        /* border: 1px solid red; */
-    }
-
-    .img4 {
-        width: 100%;
-        margin-left: 0%;
-        border-radius: 5px;
-
-    }
-
-    .span31 {
-        font-weight: 500px;
-    }
-
-    .span3 {
-        color: #9E9E9E;
-        font-family: lighter;
-    }
-
-    .thirdhp1 {
-        margin-left: 15px;
-        margin-top: 0%;
-        /* border: 1px solid red; */
-
-    }
-
-
-    /* section4 start from here */
-
-    #section4 {
-        /* border: 1px solid red; */
-    }
-    .text4 {
-        width: auto;
-        margin-left: 10%;
-        /* border: 1px solid red; */
-    }
-    /* .div4 {
-        width: 40%
-        height:200px;
-        border: 1px solid red;
-    } */
-    .div4 {
-        width: 570px;
-        height: 200px;
-        margin-left: 10%;
-        border-radius: 2%;
-        border: 0.1px solid white;
-    }
-    .div41 {
-        background-color: #80CBC4;
-        height: 180px;
-    }
-    .div412 {
-        width: 90px;
-        height: 76px;
-        margin-left: 480px;
-        margin-top: -91px;
-        
-        /* border: 1px solid red; */
-
-    }
-    
-    .div42 {
-        margin-left: 750px;
-        height: 180px;
-        margin-top: -182px;
-        background-color: #FCE4EC;
-        
-    }
-    .button4 {
-        margin: 15px 275px -15px 15px;
-        /* border: 1px solid red; */
-    }
-    .off {
-        padding: 4px;
-        color: teal;
-        background-color: white;
-        border: 1px solid teal;
-    }
-    .divh1 {
-        margin: 15px 275px 15px 15px;
-        border: 0.1px solid #80CBC4;
-    }
-    .img43 {
-        height: 79px;
-        width: 90px;
-    }
-    .inner4 {
-        /* margin-top: 5%;
-        border: 1px solid red; */
-    }
-    .off1 {
-        color: #E91E63;
-        background-color: white;
-        border: 1px solid white;
-        
-    }
-    .divh2 {
-        margin: 15px 275px 15px 15px;
-        border: 0.1px solid #FCE4EC;
-    }
-
-   /* section5 start from here */
-
-   #section5 {
-       width: 100%;
-       /* border: 1px solid red; */
-
-   }
-   .divh5 {
-       width: 90%;
-       margin-left: 10%;
-       /* border: 1px solid red; */
-   }
-   .divd5 {
-       display: grid;
-       grid-template-columns: 23% 23% 23% 23%;
-       margin: 0% 10% 0% 10%;
-       gap: 2%;
-       height: 100px;
-       /* border: 1px solid red; */
-   }
-   .divd51 {
-       border: 2px solid whitesmoke;
-       display: grid;
-       border-radius: 5px;
-       grid-template-columns: 25% 65%;
-       gap: 0%;
-   }
-   .div511 {
-       margin-left: 15px;
-       margin-top: 10px;
-       /* text-align: center; */
-       /* border: 1px solid red; */
-   }
-   .img5 {
-       width: 100%;
-       height: 50px;
-       border-radius: 70%;
-   }
-   .divspan5 {
-       font-size: 10px;
-      background-color : yellow;
-   }
-   .divspan511 {
-       font-size: 13px;
-   }
-   .div512 {
-       text-align: center;
-   }
-
-   /* section6 start from here */
-
-   #section6 {
-       margin: 3% 0% 4% 0%;
-       /* border: 1px solid red; */
-   }
-   .div61 {
-       text-align: center;
-   }
-   .div62 {
-       display: grid;
-       grid-template-columns: 27% 27% 27%  ;
-       gap: 2%;
-       margin-left: 15%;
-       /* border: 1px solid red; */
-   }
-   .div621 {
-       height: 50px;
-       margin-left: 15%;
-       /* border: 1px solid red; */
-   }
-
-   /* section7 start from here */
-   #section7 {
-       background-color: black; 
-       height: 100px;
-       /* border:1px solid red; */
-   }
-   .div7 {
-       display: grid;
-       grid-template-columns: 20% 20% 20% 20%;
-       gap: 2%;
-       height: 100px;
-       margin-left: 10%;
-
-       /* border: 1px solid red; */
-   }
-   .div7div {
-       height: 80px;
-       color: white;
-       line-height: 5px;  
-       margin-top: 20px;
-       /* border: 1px solid red; */
-   }
-   .divp1 {
-       font-size: 20px;
-       text-align: center;
-   }
-   .divp2 {
-       font-size: 14px;
-       text-align: center;
-   }
-   
-   /* section8 start from here */
-   #section8 {
-       height: 450px;
-       /* border: 1px solid red; */
-   }
-   .div81 {
-       margin-left: 10%;
-       margin-bottom: 3%;
-       margin-top: 3%;
-   }
-   .div82 {
-       display: grid;
-       grid-template-columns: 31% 31% 31%;
-       grid-template-rows: 150px 150px 150px;
-       height: 320px;
-       gap: 3%;
-       margin-left: 10%;
-       margin-right: 10%;
-       border: 1px solid whitesmoke;
-       
-   }
-   .div821 {
-    /* border: 1px solid black; */
-   }
-   .p8 {
-       color: #9E9E9E;
-   }
-  
-  /* section9 start from here */
- #section9 {
-
-
-
- }
- .div91 {
-      margin-left: 10%;
-      margin-top:2% ;
-      font-size: 30px;
-      /* border: 1px solid red; */
- }
- .div92 {
-     display: grid;
-     grid-template-columns: 30% 30% 30%;
-     height: 300px;
-     gap: 5%;
-     margin: 2% 10% 0% 10%;
-     /* border: 1px solid red; */
- }
- .div921 {
-     border: 1px solid whitesmoke;
- }
- .vid {
-width : 100%;
-height : 300px;
-
-
- }
- .div93 {
-     display: grid;
-     grid-template-columns: 30% 30% 30%;
-     height: 75px;
-     margin: 2% 10% 2% 10%;
-     gap: 5%;
-     font-size: 19px;
-     /* border: 1px solid red; */
- }
- .div931 {
-     /* border: 1px solid red; */
-
- }
-
- /* section10 start from here */
-
- #section10 {
-     /* border: 1px solid red; */
- }
- .div101 {
-    margin: 0% 10% 0% 10%;
-    /* border: 1px solid red; */
- }
- .div102 {
-    display: grid;
-     grid-template-columns: 30% 30% 30%;
-     height: 190px;
-     gap: 5%;
-     margin: 0% 10% 0% 10%;
-     /* border: 1px solid red; */
- }
- .div1021 {
-     border: 2px solid whitesmoke;
- }
- .div10211 {
-    line-height: 1;
- }
- .img10 {
-     height: 50px;
-     width: 50px;
-     margin-left: 3%;
-     margin-top: 2%;
- }
- .divx {
-     width: 60%;
-     margin-left: 20%;
-     margin-top: -15%;
-     /* border: 1px solid red; */
- }
- .divh10 {
-     font-size: 18px;
- }
- .divx1 {
-     height: 110px;
-     margin-left: 3%;
-     margin-right: 4%;
-     font-size: 15px;
-     line-height: 1.5;
-     /* border: 1px solid red; */
- }
-
- /* section11 start from here */
-
-#section11 {
-    height: 430px;
-    /* border: 1px solid red; */
-} 
-.div112 {
-    display: grid;
-    grid-template-columns: 48% 48%;
-    gap: 4%;
-    grid-template-rows: 100px 100px 100px;
-    margin-right: 10%;
-    margin-left: 10%;
-    /* border: 1px solid red; */
-}
-.div111 {
-    margin: 0% 10% 0% 10%;
-}
-.div1121 {
-    margin-left: 3%;
-    /* border: 1px solid red; */
-}
-.b11 {
-    font-size: 20px;
-}
-.p11 {
-    margin-left: 3%;
-    color: #9E9E9E;
-}
-/* section12 start feom here */
-
-#section12 {
-    /* border: 1px solid red; */
-}
-.div121 {
-    margin-left: 10%;
-    margin-right: 10%;
-    /* border: 1px solid red; */
-}
-.div122 {
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    gap: 5%;
-    /* border: 1px solid red; */
-}
-.divx12 {
-    height: 100px;
-    /* border: 1px solid red; */
-}
-.span12 {
-    margin-left: 80%;
-    margin-top: -5%;
-    /* border: 1px solid red; */
-}
-
-/* section13 start from here */
-
-#section13 {
-    background-color: black;
-    /* border: 1px solid red; */
-}
-.div13 {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    height: 130px;
-    gap: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    /* border: 1px solid red; */
-}
-.div131 {
-    color: white;
-    margin-left: 2%;
-    /* border: 1px solid red; */
-}
-.button13 {
-        margin-top: 40px;
-        margin-bottom: 10px;
-        margin-left: 200px;
-        padding: 14px 100px;
-        font-size: 18px;
-        font-weight: bold;
-        color: white;
-        background-color: #29B6F6;
-        border-radius: 5px;
-        border: 1px solid black;
-}
-#ontn {
-           position:fixed;
-            display : flex;
-            border : 1px solid wheat;
-            background-color:white;
-            height : 80px;
-            width : 100%;
-            top:0
-        }
-        
-
-
-
-
 </style>
 
 <body>
@@ -1218,6 +573,140 @@ window.location.href = "medicines.html";
             </div>
         </div>
     </div>
+
+    
+                      <div id = "mahi">
+        <div class = "rohit">
+
+            <h4>Practo</h4>
+<ul>
+
+    <li>About</li>
+     <li>Blog</li>  
+        <li >Careers</li>
+        <li >Press</li>  
+        <li>Contact Us</li>
+</ul>
+
+
+
+        </div>
+
+
+        <div class = "rohit">
+
+            <h4>For Patients</h4>
+<ul>
+
+  
+<li>Search for doctors</li>
+<li >Search for clinics</li>
+<li>Search for hospitals</li>
+<li >Book Diagnostic Tests</li>
+<li >Book Full Body Checkups</li>
+<li>Practo Plus</li>
+<li >Read health articles</li>
+<li >Read about medicine</li>
+<li >Practo drive</li>
+<li>Health app</li>
+</ul>
+
+
+
+        </div>
+
+        
+        <div class = "rohit">
+
+            <h4>For doctors</h4>
+            <h4>Practo Profile</h4>
+
+            <h4> For Clinics</h4>
+<ul>
+
+  
+<li>Ray by Practo</li>
+<li>Practo Reach</li>
+<li>Ray Tab</li>
+<li>Practo Pro</li>
+
+</ul>
+
+
+
+        </div>
+
+        <div class = "rohit">
+
+            <h4>For Hospitals</h4>
+            
+
+            
+<ul>
+
+  
+<li >Insta by Practo</li>
+<li>Quickwell by Practo</li>
+<li >Practo Profile</li>
+<li>Practo Reach</li>
+
+</ul>
+
+
+
+        </div>
+        <div class = "rohit">
+
+            <h4>More</h4>
+           
+
+           
+<ul>
+
+  
+<li>Help</li>
+<li>Developers</li>
+<li>Privacy Policy</li>
+<li>Terms & Conditions</li>
+<li>Healthcare Directory</li>
+<li>Practo Careness</li>
+<li>Corporare Welfares</li>
+
+</ul>
+
+
+
+        </div>
+        <div class = "rohit">
+
+            <h4>Social</h4>
+           
+
+           
+<ul>
+
+  
+<li>Facebook</li>
+<li>Twitter</li>
+<li>Linkedin</li>
+<li>Youtube</li>
+<li>Github</li>
+
+</ul>
+
+
+
+        </div>
+        </div>
+
+        <div id = "puji">
+            <div id = "kl">
+<img id = "shubh" src = "data:image/jpeg;base64,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"/>
+</div>
+
+    <p id = "murli">Copyright © 2017, Practo. All rights reserved.</p>
+    <div></div>
+
 
 </body>
 
