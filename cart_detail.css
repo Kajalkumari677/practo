@@ -1,0 +1,271 @@
+body{
+        margin-top:80px;
+        border:3px solid  whitesmoke;
+        padding: 0;
+    
+        
+    }
+    .container{
+        position: fixed;
+         top: 0;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+        border:3px solid  whitesmoke;
+        padding-bottom: 10px;
+    }
+    img{
+        width:110px;
+        height:65px;
+        
+    }
+    #pic{
+        margin:10px 30px 0px 80px;
+       
+    }
+    #large{
+       
+        color:rgb(17, 10, 10);
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+       
+    }
+    #small{
+      
+        color: rgb(19, 18, 18);
+        font-size: 12px;
+        font-family:  'Assistant', sans-serif;
+        margin-top:3px;
+       
+       
+    }
+    .d1{
+        margin:20px 10px 0px 10px;
+       
+    }
+    
+    .d2{
+        margin:20px 30px 0px 25px;
+        
+    }
+    #first{
+        color:blue;
+        font-family: 'Manrope', sans-serif;
+        font-size:14px;
+        
+    }
+.wrapper{
+     margin-top:12px ;
+}
+input{
+    width:90px;
+    height:30px;
+    margin:25px 10px 0px 10px;
+}
+.container2{   
+    position: fixed;
+    padding-top:10px;
+         top:1;
+         left: 0;
+        z-index: 9999;
+        display:flex;
+        width:100%;
+        background-color: white;
+        height:65px;
+         border:1px solid  whitesmoke;
+         padding-bottom: 10px
+  
+}
+textarea{
+    width:600px;
+    margin:10px 0px 0px 80px;
+    border:3px solid  rgb(230, 227, 227);
+}
+.b1{
+
+   width:190px;
+    height:50px;
+    margin:10px 0px 10px 430px;
+    background-color: rgb(65, 194, 245);
+    color:white;
+}
+
+
+.container3{
+    height:700px;
+    margin-top:82px;
+    border:3px solid  whitesmoke;
+    display:flex;
+    background-color: rgb(248, 244, 244);
+}
+#left{
+   
+    width:480px;
+    margin-left:45px;
+    
+   
+}
+.sub{
+   
+    display:flex;
+   
+}
+#subL{
+    
+    width:120px;
+    height:335px;
+    margin-right:30px;
+    
+    
+
+}
+#med1{
+   
+margin-top:2px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#med2{
+    
+    margin-top:20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#med3{
+   
+    margin-top:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sub2{
+    
+    width:380px;
+    height:200px;
+    margin-left:90px;
+    
+}
+
+span{
+    margin-left:140px;
+    font-size:18px;
+    font-family:  'Assistant', sans-serif;
+    color: rgb(68, 66, 66);
+    
+}
+
+.view{
+    width:150px;
+    height:50px;
+   margin:20px 38px 0px 0px;
+    background-color: rgb(65, 194, 245);
+    color:white;
+    font-size:22px;
+    
+}
+
+#size{
+    color: rgb(75, 72, 72);
+    font-size:12px;
+    font-family:  'Assistant', sans-serif;
+}
+#subR{
+    
+    width:260px;
+    height:305px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+#lar_img{
+    width:250px;
+    margin-left:10px;
+    height:300px;
+}
+#right{
+    border:3px solid  whitesmoke; 
+    width:100%;
+    height:680px;
+    font-family: 'Manrope', sans-serif;
+}
+#font1{
+    font-size:22px;
+}
+.home{
+    border:1px solid whitesmoke;
+    margin:20px;
+}
+.home:hover{
+  color:blue;
+}
+.b1:hover{
+    background-color: blue;
+}
+.view:hover{
+    background-color: blue;
+}
+#med1:hover{
+    border:1px solid blue
+}
+#quant{
+    border:1px solid red;
+}
+.quantity {
+    display: flex;
+    justify-content: center;
+}
+#mahi {
+    background-color: rgb(50, 50, 146); display : flex; margin : 0px;
+}
+
+#zoo {
+  margin : 200px; display : flex;
+}
+.rohit {
+   margin :50px 50px 100px 
+}
+
+#rahul {
+
+    margin : 20px 0px; display: flex; padding: 20px;
+} 
+
+#puji {
+
+    background-color : rgb(50, 50, 146);
+}
+
+#kl {
+
+     margin : 0px 350px 10px 600px; background-color : rgb(50, 50, 146);
+}
+#shubh {
+
+    width : 350px ; height : 200px; background-color: blue;"
+}
+
+#park1 {
+
+   margin : 50px 200px;
+}
+
+#park2 {
+
+    background-color : rgb(21, 181, 192); height : 35px ;width : 250px;padding-top: 2px;
+}
+#root {
+
+    margin : 50px 0px 50px 100px;
+}
+
+li {
+
+    color : white;
+}
+#murli {
+  text-align: center; color : white;
+}
+
+.rohit > h4 {
+
+    color : white;
+}
